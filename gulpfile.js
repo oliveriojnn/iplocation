@@ -5,8 +5,8 @@ var uglifyjs    = require('gulp-uglify');
 var uglifycss   = require('gulp-uglifycss');
 var rename      = require('gulp-rename');
 var imagemin	= require('gulp-smushit');
-var rm			= require('gulp-rm');
-var htmlmin		= require('gulp-htmlmin');
+var rm		= require('gulp-rm');
+var htmlmin	= require('gulp-htmlmin');
 
 gulp.task('server', function() {
 
