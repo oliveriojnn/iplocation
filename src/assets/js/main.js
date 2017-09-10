@@ -1,4 +1,4 @@
-var app = new Vue({
+const app = new Vue({
 	el: '#app',
 	data: {
 		message: 'Digite o endereço de IP',
@@ -10,7 +10,7 @@ var app = new Vue({
 	methods:{
 		send: function(e) {
 			e.preventDefault();
-			var self = this;
+			const self = this;
 			self.$http.get('https://freegeoip.net/json/' + this.ip)
 			.then(function(result) {
 				this.resultado = result.data;
