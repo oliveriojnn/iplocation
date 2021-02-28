@@ -22,7 +22,7 @@ COPY nginx/default.conf /etc/nginx/sites-enabled/default
 
 COPY --from=node1 --chown=www-data:www-data /tmp/dist/ /var/www/iplocation/
 
-WORKDIR /var/www/cep/
+WORKDIR /var/www/iplocation/
 
 EXPOSE 80
 
