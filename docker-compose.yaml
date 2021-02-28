@@ -1,0 +1,10 @@
+
+version: '3'
+
+services:
+  iplocation:
+    build: .
+    image: iplocation
+    container_name: iplocation
+    ports:
+      - "80:80"

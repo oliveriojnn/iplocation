@@ -1,18 +1,9 @@
 # iplocation
+
 Sistema para buscar informações de um determinado IP.
 
-Projeto online: https://oliverio.eti.br/projects/iplocation/
-
-Após fazer o download do projeto.
+Para rodar digite:
 
 ```
-npm install
-```
-
-```
-bower install
-```
-
-```
-gulp build
+docker-compose up --build -d
 ```
