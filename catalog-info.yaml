@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: oliveriojnn/iplocation
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: production
   owner: sjcc
   apiConsumedBy:
     - cep
