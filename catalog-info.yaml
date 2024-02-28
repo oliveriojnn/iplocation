@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: iplocation
   annotations:
@@ -8,5 +8,5 @@ spec:
   type: other
   lifecycle: unknown
   owner: sjcc
-  providesApis:
-    - iplocation
+  apiConsumedBy:
+    - cep
