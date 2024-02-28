@@ -8,3 +8,5 @@ spec:
   type: other
   lifecycle: unknown
   owner: sjcc
+  providesApis:
+    - iplocation
