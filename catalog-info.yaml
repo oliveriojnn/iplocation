@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: iplocation
+  name: production
+  description: lorem ipsum lorem ipsum lorem ipsum
   annotations:
     github.com/project-slug: oliveriojnn/iplocation
 spec:
